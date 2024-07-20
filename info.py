@@ -47,7 +47,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "8"))
 START_MESSAGE = environ.get('START_MESSAGE', '<b>Mʏ Nᴀᴍᴇ Is #Mɪɴᴀᴛᴏ. Wᴇ Aʀᴇ Pʀᴏᴠɪᴅᴇ Aɴʏ Mᴏᴠɪᴇ Sᴇʀɪᴇs Aɴɪᴍᴇ.\n\nWᴇ Aʀᴇ A Bʀᴀɴᴅ Wʜᴏ Pʀᴏᴠɪᴅᴇ Aʟʟ Kɪɴᴅ Oғ Cᴏɴᴛᴇɴᴛ Tᴏ Mᴇᴍʙᴇʀs Wɪᴛʜ Nᴏ Cᴏsᴛ.\n\nJᴜsᴛ Sᴇɴᴅ Aɴʏ Mᴏᴠɪᴇ Nᴀᴍᴇ Aɴᴅ Gᴇᴛ Wʜᴀᴛ Yᴏᴜ Dʀᴇᴀᴍ Iɴ Yᴏᴜʀ Lɪғᴇ....</b>')
-BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
+BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ Tʜᴀᴛ's Nᴏᴛ Fᴏʀ Yᴏᴜ. Pʟᴇᴀsᴇ Rᴇᴏ̨ᴜᴇsᴛ Yᴏᴜʀ Oᴡɴ")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b>Yᴏᴜ Hᴀᴠᴇ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Cʜᴀɴɴᴇʟ Sᴏ Pʟᴇᴀsᴇ Jᴏɪɴ Aɴᴅ Gᴇᴛ Wʜᴀᴛ Yᴏᴜ Dʀᴇᴀᴍ Iɴ Yᴏᴜʀ Lɪғᴇ....</b>')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2014/04/shutterstock_175386392.jpg")
