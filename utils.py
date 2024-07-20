@@ -166,15 +166,21 @@ async def save_group_settings(group_id, key, value):
     await db.update_settings(group_id, current)
     
 def get_size(size):
-    """Get size in readable format"""
+    """Get size in readable format (converted to MB if originally in GB)"""
 
     units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
     size = float(size)
     i = 0
-    while size >= 1024.0 and i < len(units):
+    while size >= 1024.0 and i < len(units) - 1:
         i += 1
         size /= 1024.0
-    return "%.2f %s" % (size, units[i])
+    if units[i] == "GB":
+        size *= 1024.0
+        i -= 1
+    if units[i] == "Bytes":
+        size /= 1024.0
+        i += 1
+    return f"{int(size)} {units[i]}"
 
 def split_list(l, n):
     for i in range(0, len(l), n):
